@@ -8,6 +8,10 @@ $light-grey: #777777;
 $green: #6CB71D;
 $animation: all 0.5s ease;
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   font-size: 10px;
 }
@@ -36,6 +40,10 @@ h1,h2,h3{
   line-height: 1.8rem;
   font-family: 'Roboto-Bold', sans-serif;
   cursor: pointer;
+  text-decoration: none;
+  &:hover{
+    color: $white;
+  }
 }
 
 @media (max-width: 576px){
